@@ -5,11 +5,13 @@ import "./globals.css";
 
 const arsenal = Arsenal({
   weight: ["400", "700"],
+  subsets: ["latin"],
   variable: "--font-arsenal",
 });
 
 const poppins = Poppins({
   weight: ["400", "700"],
+  subsets: ["latin"],
   variable: "--font-poppins",
 });
 

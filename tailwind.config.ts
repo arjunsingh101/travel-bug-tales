@@ -14,6 +14,11 @@ export default {
       },
       backgroundImage: {
         hero_baaner_bg: "url('/images/hero-banner-bg.jpg')",
+        hero_baaner_bg_video: "url('/images/home-hero-banner-video.mp4')",
+      },
+      fontFamily: {
+        arsenal: ["var(--font-arsenal)", "sans-serif"],
+        poppins: ["var(--font-poppins)", "sans-serif"],
       },
     },
   },

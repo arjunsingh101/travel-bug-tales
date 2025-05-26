@@ -1,20 +1,29 @@
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import { Button } from "@mui/material";
+import MenuIcon from "@mui/icons-material/Menu";
+import { Button, IconButton } from "@mui/material";
+import Image from "next/image";
 
 export const Header = () => {
   return (
-    <header className="fixed flex px-10  py-10 flex-row justify-between z-50 w-full transition-transform duration-300">
+    <header className="fixed flex px-10  py-5 flex-row justify-between z-50 w-full transition-transform duration-300">
       <div>
-        <div className="text-white"> Logo</div>
+        <div className="text-white">
+          <Image
+            src="/images/tbt-logo.png"
+            width={100}
+            height={50}
+            alt="logo"
+          />
+        </div>
       </div>
       <div className="text-white flex flex-row gap-5 items-center">
-        <div>About Us</div>
-        <div>Contact US</div>
-        <div>
+        <div className="hidden md:block">About Us</div>
+        <div className="hidden md:block">Contact US</div>
+        <div className="hidden md:block">
           <Button
             disableRipple
             sx={{
-            //   fontFamily: `${poppins}`,
+              //   fontFamily: `${poppins}`,
               fontSize: "16px",
               fontWeight: "500",
               textTransform: "capitalize",
@@ -39,6 +48,11 @@ export const Header = () => {
               fontSize="small"
             />
           </Button>
+        </div>
+        <div className="flex lg:hidden">
+          <IconButton>
+            <MenuIcon className="text-white" />
+          </IconButton>
         </div>
       </div>
     </header>

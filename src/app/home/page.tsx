@@ -1,6 +1,8 @@
+import { AditionalFeature } from "./aditionalFeatures";
 import { Benefit } from "./benefit";
 import { GetInTouch } from "./getInTouch";
 import { HomeHeroBanner } from "./homeHeroBanner";
+import { OurFeatures } from "./ourFeature";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <HomeHeroBanner />
       <GetInTouch />
       <Benefit />
+      <OurFeatures />
+      <AditionalFeature />
     </>
   );
 }

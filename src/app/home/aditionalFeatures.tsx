@@ -50,7 +50,10 @@ export const AditionalFeature = () => {
             <img
               src={i.image}
               alt="feature"
-              className="transform rotate-y-6 -rotate-x-2"
+              className="w-full h-auto clip-rhombus"
+              style={{
+                clipPath: "polygon(0 0, 100% 14%, 100% 100%, 0 85%)",
+              }}
             />
           </div>
         </div>

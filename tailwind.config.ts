@@ -29,6 +29,8 @@ export default {
         git_1: "url('/images/git-1.png')",
         git_2: "url('/images/git-2.png')",
         git_3: "url('/images/git-3.png')",
+        tenstimonial_bg: "url('/images/testimonial-bg.webp')",
+        book_tour_bg: "url('/images/book-tour.webp')",
       },
       fontFamily: {
         arsenal: ["var(--font-arsenal)", "sans-serif"],

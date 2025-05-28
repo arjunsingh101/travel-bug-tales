@@ -35,12 +35,12 @@ export const GetInTouch = () => {
             <div className="text-lg font-montserrat font-bold py-1 bg-white/50 px-5 rounded-full max-w-[220px]">
               Start Traveling Now
             </div>
-            <div className="md:text-3xl l:text-[45px] text-white font-bold outlined-only font-serif md:pt-5 xl:pt-10">
+            <div className="md:text-3xl l:text-5xl text-white font-bold outlined-only font-serif md:pt-5 xl:pt-10">
               Thrilling Expeditions <br /> for Every Explorer
             </div>
           </div>
         </div>
-        <div className="bg-gradient-to-r from-[#5DE0E6]/90 to-[#0048B3]/90 md:px-5 xl:px-16 md: py-5 xl:py-10 rounded-lg">
+        <div className="bg-gradient-to-r from-[#5DE0E6]/90 to-[#0048B3]/90 md:px-5 l:px-[57px] md:py-5 xl:py-10 rounded-lg">
           <div className=" md:text-3xl xl:text-4xl font-poppins font-bold text-white py-5 text-center ">
             Get in touch.
           </div>

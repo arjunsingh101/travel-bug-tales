@@ -17,14 +17,14 @@ export const GetInTouch = () => {
           left: 0,
         }}
       />
-      <div className="absolute z-10 left-[25%] border-[4px] border-white rounded-t-full rounded-b-full top-[15%] bg-git_1 bg-cover w-[180px] h-[450px] bg-center " />
-      <div className="absolute z-10 left-[41%] border-[4px] border-white rounded-t-full rounded-b-full top-[25%] bg-git_2 bg-cover w-[160px] h-[350px] bg-center " />
-      <div className="absolute z-10 left-[55%] border-[4px] border-white rounded-t-full rounded-b-full top-[25%] bg-git_3 bg-cover w-[160px] h-[350px] bg-center " />
+      <div className="absolute z-10 md:left-[35%] l:left-[25%] border-[4px] border-white rounded-t-full rounded-b-full md:top-[25%] l:top-[15%] bg-git_1 bg-cover md:w-[100px] md:h-[350px] l:w-[180px] l:h-[450px] bg-center " />
+      <div className="absolute z-10 md:left-[50%] l:left-[41%] border-[4px] border-white rounded-t-full rounded-b-full md:top-[32%] l:top-[25%] bg-git_2 bg-cover md:w-[100px] md:h-[280px] l:w-[160px] l:h-[350px] bg-center " />
+      <div className="absolute z-10 md:left-[65%] l:left-[55%] border-[4px] border-white rounded-t-full rounded-b-full md:top-[32%] l:top-[25%] bg-git_3 bg-cover md:w-[100px] md:h-[280px] l:w-[160px] l:h-[350px] bg-center " />
 
       {/* Content */}
       <div className="relative z-20 flex flex-row justify-between px-10 py-10">
         <div className="flex flex-col justify-between">
-          <div className="pl-10">
+          <div className="xl:pl-10">
             <img
               src="/images/tbt-logo-white.png"
               alt="logo"
@@ -35,13 +35,13 @@ export const GetInTouch = () => {
             <div className="text-lg font-montserrat font-bold py-1 bg-white/50 px-5 rounded-full max-w-[220px]">
               Start Traveling Now
             </div>
-            <div className="text-[45px] text-white font-bold outlined-only font-serif leading-[48px] pt-10">
+            <div className="md:text-3xl l:text-[45px] text-white font-bold outlined-only font-serif leading-[48px] md:pt-5 xl:pt-10">
               Thrilling Expeditions <br /> for Every Explorer
             </div>
           </div>
         </div>
-        <div className="bg-gradient-to-r from-[#5DE0E6]/90 to-[#0048B3]/90 px-16 py-10 rounded-lg">
-          <div className="text-4xl font-poppins font-bold text-white py-5 text-center ">
+        <div className="bg-gradient-to-r from-[#5DE0E6]/90 to-[#0048B3]/90 md:px-5 xl:px-16 md: py-5 xl:py-10 rounded-lg">
+          <div className=" md:text-3xl xl:text-4xl font-poppins font-bold text-white py-5 text-center ">
             Get in touch.
           </div>
           <form className="flex flex-col gap-5">
@@ -55,7 +55,10 @@ export const GetInTouch = () => {
                   backgroundColor: "white",
                   borderRadius: "8px",
                   border: "none",
-                  width: "400px",
+                  width: {
+                    sm: 300,
+                    md: 400,
+                  },
                   "& .MuiOutlinedInput-root": {
                     height: "40px",
                     padding: 0, // remove extra padding
@@ -78,7 +81,10 @@ export const GetInTouch = () => {
                   backgroundColor: "white",
                   borderRadius: "8px",
                   border: "none",
-                  width: "400px",
+                  width: {
+                    sm: 300,
+                    md: 400,
+                  },
                   "& .MuiOutlinedInput-root": {
                     height: "40px",
                     padding: 0, // remove extra padding
@@ -101,7 +107,10 @@ export const GetInTouch = () => {
                   backgroundColor: "white",
                   borderRadius: "8px",
                   border: "none",
-                  width: "400px",
+                  width: {
+                    sm: 300,
+                    md: 400,
+                  },
                   "& .MuiOutlinedInput-root": {
                     height: "40px",
                     padding: 0, // remove extra padding
@@ -123,7 +132,7 @@ export const GetInTouch = () => {
                   backgroundColor: "white",
                   borderRadius: "8px",
                   border: "none",
-                  width: "400px",
+                  width: "100%",
                 }}
                 id="filled-multiline-flexible"
                 multiline

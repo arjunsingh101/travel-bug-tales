@@ -1,6 +1,11 @@
 import { Header } from "@/components/header";
 import type { Metadata } from "next";
-import { Arsenal, Poppins } from "next/font/google";
+import {
+  Arsenal,
+  DM_Serif_Display,
+  Montserrat,
+  Poppins,
+} from "next/font/google";
 import "./globals.css";
 
 const arsenal = Arsenal({
@@ -10,6 +15,18 @@ const arsenal = Arsenal({
 });
 
 const poppins = Poppins({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  variable: "--font-poppins",
+});
+
+const dmSerifDispaly = DM_Serif_Display({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-dmSerifDisplay",
+});
+
+const montserrat = Montserrat({
   weight: ["400", "700"],
   subsets: ["latin"],
   variable: "--font-poppins",
@@ -27,7 +44,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${arsenal.variable} ${poppins.variable}`}>
+      <body
+        className={`${arsenal.variable} ${poppins.variable} ${dmSerifDispaly.variable} ${montserrat.variable}`}
+      >
         <Header />
         {children}
       </body>

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <header className="fixed flex px-10 pt-5 flex-row justify-between z-50 w-full transition-transform duration-300">
+    <header className="absolute flex px-10 pt-5 flex-row justify-between z-50 w-full transition-transform duration-300">
       <div>
         <div className="text-white">
           <Image

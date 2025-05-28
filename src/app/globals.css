@@ -19,3 +19,9 @@ body {
   background: var(--background);
   /* font-family: Arial, Helvetica, sans-serif; */
 }
+
+.outlined-only {
+  color: white;
+  -webkit-text-stroke: 1px gray;
+}
+

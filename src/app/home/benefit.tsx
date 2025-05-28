@@ -24,51 +24,51 @@ export const Benefit = () => {
         </div>
       </div>
       <div className="bg-[#007073] w-[75%] pt-[77px] px-[60px] gap-10 flex flex-row">
-        <div>
-          <div className="w-[250px] h-[350px] rounded-xl relative pb-4">
+        <div className="w-full ">
+          <div className="rounded-xl relative pb-4 ">
             <img
               src={"/images/benefit-1.png"}
               alt="benefit-1"
-              className="size-full rounded-xl"
+              className="size-full max-h-[350px] object-cover rounded-xl"
             />
-            <div className="absolute bottom-5 text-xl font-bold font-arsenal left-5 text-white">
+            <div className="absolute bottom-8 text-xl font-bold font-arsenal leading-5 left-5 text-white">
               Customized <br /> Tours
             </div>
           </div>
-          <div className="text-sm font-serif text-white">
+          <div className="text-sm font-serif text-white px-5">
             Collaborate with our experts to create a personalized itinerary that
             transforms your travel dreams into reality.
           </div>
         </div>
-        <div>
-          <div className="w-[250px] h-[350px] rounded-xl relative pb-4">
+        <div className="w-full">
+          <div className="rounded-xl relative pb-4">
             <img
               src={"/images/benefit-2.png"}
               alt="benefit-1"
-              className="size-full rounded-xl"
+              className="size-full max-h-[350px] object-cover rounded-xl"
             />
-            <div className="absolute bottom-5 text-xl font-bold font-arsenal left-5 text-white">
+            <div className="absolute bottom-8 text-xl font-bold  leading-5 font-arsenal left-5 text-white">
               Hassle-free <br /> Arrangements
             </div>
           </div>
-          <div className="text-sm font-serif text-white">
+          <div className="text-sm font-serif text-white px-5">
             Our expert team ensures every aspect of your trip is meticulously
             arranged for your peace of mind.
           </div>
         </div>
-        <div>
-          <div className="w-[250px] h-[350px] rounded-xl relative pb-4">
+        <div className="w-full">
+          <div className="rounded-xl relative pb-4">
             <img
               src={"/images/benefit-3.png"}
               alt="benefit-1"
-              className="size-full rounded-xl"
+              className="size-full max-h-[350px] object-cover rounded-xl"
             />
-            <div className="absolute bottom-5 text-xl font-bold font-arsenal left-5 text-white">
+            <div className="absolute bottom-8 text-xl font-bold leading-5 font-arsenal left-5 text-white">
               Flexible <br />
               Rebooking Policy
             </div>
           </div>
-          <div className="text-sm font-serif text-white">
+          <div className="text-sm font-serif text-white px-5">
             We offer adaptable travel options, allowing you to modify your
             bookings with ease, ensuring a stress-free luxury experience.
           </div>

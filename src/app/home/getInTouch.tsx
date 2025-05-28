@@ -35,7 +35,7 @@ export const GetInTouch = () => {
             <div className="text-lg font-montserrat font-bold py-1 bg-white/50 px-5 rounded-full max-w-[220px]">
               Start Traveling Now
             </div>
-            <div className="md:text-3xl l:text-[45px] text-white font-bold outlined-only font-serif leading-[48px] md:pt-5 xl:pt-10">
+            <div className="md:text-3xl l:text-[45px] text-white font-bold outlined-only font-serif md:pt-5 xl:pt-10">
               Thrilling Expeditions <br /> for Every Explorer
             </div>
           </div>

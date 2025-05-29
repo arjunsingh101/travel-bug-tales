@@ -31,12 +31,16 @@ export default {
         git_3: "url('/images/git-3.png')",
         tenstimonial_bg: "url('/images/testimonial-bg.webp')",
         book_tour_bg: "url('/images/book-tour.webp')",
+        packages_hero_bg_1: "url('/images/packages-hero-bg.webp')",
+        "packages-gradient":
+          "linear-gradient(90deg, #ffffff, #fffffff 35%, #ffffff 100%)",
       },
       fontFamily: {
         arsenal: ["var(--font-arsenal)", "sans-serif"],
         poppins: ["var(--font-poppins)", "sans-serif"],
         dmserifDisplay: ["var(--font-dmserifDisplay)", "sans-serif"],
         montserrat: ["var(--font-montserrat)", "sans-serif"],
+        playListScript: ["var(--font-playListScript)", "sans-serif"],
       },
     },
   },

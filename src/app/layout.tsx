@@ -6,6 +6,7 @@ import {
   Montserrat,
   Poppins,
 } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
 const arsenal = Arsenal({
@@ -31,6 +32,27 @@ const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-poppins",
 });
+const playListScript = localFont({
+  src: [
+    {
+      path: "../../public/fonts/playlist-script.woff2",
+      weight: "100",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/playlist-script.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/playlist-script.woff2",
+      weight: "500",
+      style: "normal",
+    },
+  ],
+  variable: "--font-playListScript",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Travel Bug Tales Best Holiday Packages",
@@ -45,7 +67,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${arsenal.variable} ${poppins.variable} ${dmSerifDispaly.variable} ${montserrat.variable}`}
+        className={`${arsenal.variable} ${poppins.variable} ${dmSerifDispaly.variable} ${montserrat.variable} ${playListScript.variable}`}
       >
         <Header />
         {children}

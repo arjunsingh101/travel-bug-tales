@@ -24,4 +24,8 @@ body {
   color: white;
   -webkit-text-stroke: 1px gray;
 }
+.outlined-only-1 {
+  color: #F78D00;
+  -webkit-text-stroke: 1px white ;
+}
 

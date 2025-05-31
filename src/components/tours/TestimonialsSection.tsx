@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unescaped-entities */
 import { Card, CardContent } from "@/components/ui/card";
 import { testimonials } from "@/lib/tours-data";
 import { motion } from "framer-motion";

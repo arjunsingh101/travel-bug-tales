@@ -73,8 +73,9 @@ export function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Experience the world's most exclusive destinations with personalized
-            luxury travel experiences crafted for the discerning explorer.
+            Experience the world&apos;s most exclusive destinations with
+            personalized luxury travel experiences crafted for the discerning
+            explorer.
           </motion.p>
 
           <motion.div

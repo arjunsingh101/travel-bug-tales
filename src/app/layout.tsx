@@ -1,4 +1,3 @@
-import { Header } from "@/components/header";
 import type { Metadata } from "next";
 import {
   Arsenal,
@@ -69,7 +68,6 @@ export default function RootLayout({
       <body
         className={`${arsenal.variable} ${poppins.variable} ${dmSerifDispaly.variable} ${montserrat.variable} ${playListScript.variable}`}
       >
-        <Header />
         {children}
       </body>
     </html>
